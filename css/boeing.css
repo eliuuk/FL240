@@ -25,31 +25,32 @@ body {
 #headText {
 	position: relative;
 	text-align: center;
-	left: -9.5em;
+	left: -5em;
     top: -1em;
 }
+
 #headFlight {
 	position: relative;
-	top: -0.4em;
 	right: 3em;
 	font-family: 'Comfortaa', cursive;
 	font-size: 2.5em;
 	font-weight: bold;
-	color: #5777d6; 
+	color: #5777D6; 
 }
 #headLevel {
 	position: relative;
-	top: -1.75em;
-	right: 3em;
+	top: 0.85em;
+	left: -5.45em;
 	font-family: 'Comfortaa', cursive;
 	font-size: 2.5em;
 	font-weight: bold;
-	color: #5777d6;
+	color: #5777D6;
 }
 
 #headNum {
 	position: relative;
-	top: -2.75em;
+	top: 0.3em;
+	left: -2.2em;
 	font-family: 'Indie Flower', cursive;
 	font-size: 6em;
 	font-weight: bold;
@@ -58,9 +59,13 @@ body {
 
 #boeingTitle {
     position: relative;
-    top: -6.25em;
+	top: -2.25em;
     left: 4em;
     font-family: 'LuloCleanW01-One';
     font-size: 5em;
     font-weight: bold;
+}
+
+.toIndex {
+	text-decoration: none;
 }
