@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One');
+@import url('https://db.onlinewebfonts.com/c/116d187134420de5733c7c45bbc80c46?family=LuloCleanW01-One');
+
+body {
+	background-image: url("../img/index/background.jpg");
+	overflow: hidden;
+}
+
+/* Header */
+#stripe {
+	position: relative;
+	left: -10px;
+	width: 101em;
+	height: 25px; 
+	background: linear-gradient(to right, #EA7810, #756691, #756691, #59BEDF, #59BEDF);
+}
+
+#head {
+	position: relative;
+	top: 10em;
+	width: 200em;
+}
+
+#headFlight {
+	position: relative;
+	top: -0.4em;
+	right: 3em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #59BEDF; 
+}
+#headLevel {
+	position: relative;
+	top: -1.75em;
+	right: 3em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #59BEDF;
+}
+
+#headNum {
+	position: relative;
+	top: -2.75em;
+	font-family: 'Indie Flower', cursive;
+	font-size: 6em;
+	font-weight: bold;
+	color: rgb(236, 240, 241);
+}
+
+#headText {
+	position: relative;
+	text-align: center;
+	left: 1em;
+}
+
+/* Main Content */
+.generalBox {
+	position: relative;
+	width: 25em;
+	height: 30em;
+	opacity: 1;
+}
+
+/* Airbus */
+#leftBox {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	bottom: 16em;
+	left: 10em;
+}
+
+#fntA350 {
+	width: 35em;
+	height: 30em;
+
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+	#fntA350:hover {
+		opacity: 0.75;
+	}
+
+#airbusTxt {
+	position: relative;
+	top: -8.2em;
+	left: 2em;
+	color: #ffffff;
+
+	letter-spacing: -0.101em;
+	font-family: "LuloCleanW01-One", cursive;
+	font-size: 4em;
+	z-index: 2;
+}
+
+/* Boeing */
+#rightBox {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	bottom: 16em;
+	right: -27.5em;
+}
+
+#fntB789 {
+	width: 35em;
+	height: 30em;
+	
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+	#fntB789:hover {
+		opacity: 0.75;
+	}
+
+#boeingTxt {
+	position: relative;
+	bottom: 2.5em;
+	left: 2em;
+	color: #111111;
+
+	letter-spacing: -0.101em;
+	font-family: "LuloCleanW01-One", cursive;
+	font-size: 4em;
+	z-index: 2;
+}

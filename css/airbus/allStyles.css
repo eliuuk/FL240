@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One');
+@import url('https://db.onlinewebfonts.com/c/116d187134420de5733c7c45bbc80c46?family=LuloCleanW01-One');
+
+body {
+    background-image: url("../img/airbus/background.jpg");
+    background-size: 100em;
+    background-position-y: -75px;
+    overflow: hidden;
+}
+
+/* Header */
+#stripe {
+	position: relative;
+	left: -10px;
+	width: 101em;
+	height: 25px; 
+	background: linear-gradient(to right, #EA7810, #756691, #756691, #59BEDF, #59BEDF);
+}
+
+#head {
+	position: relative;
+	top: 10em;
+	width: 200em;
+}
+
+#headText {
+	position: relative;
+	text-align: center;
+	left: -9.5em;
+    top: -1em;
+}
+#headFlight {
+	position: relative;
+	top: -0.4em;
+	right: 3em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #D81921; 
+}
+#headLevel {
+	position: relative;
+	top: -1.75em;
+	right: 3em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #D81921;
+}
+
+#headNum {
+	position: relative;
+	top: -2.75em;
+	font-family: 'Indie Flower', cursive;
+	font-size: 6em;
+	font-weight: bold;
+	color: rgb(236, 240, 241);
+}
+
+#airbusTitle {
+    position: relative;
+    top: -6.25em;
+    left: 4em;
+    font-family: 'LuloCleanW01-One';
+    font-size: 5em;
+    font-weight: bold;
+}
