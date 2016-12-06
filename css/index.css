@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One');
-@import url('https://db.onlinewebfonts.com/c/116d187134420de5733c7c45bbc80c46?family=LuloCleanW01-One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Julius+Sans+One');
 
 body {
 	background-image: url("../img/index/background.jpg");
@@ -92,7 +91,8 @@ body {
 	color: #ffffff;
 
 	letter-spacing: -0.101em;
-	font-family: "LuloCleanW01-One", cursive;
+	font-family: "Poiret One", cursive;
+	letter-spacing: 0.1em;
 	font-size: 4em;
 	z-index: 2;
 }
@@ -126,7 +126,7 @@ body {
 	color: #111111;
 
 	letter-spacing: -0.101em;
-	font-family: "LuloCleanW01-One", cursive;
+	font-family: "Julius Sans One", cursive;
 	font-size: 4em;
 	z-index: 2;
 }

@@ -2,17 +2,44 @@
 	<head>
 		<title>FL240 | AIRBUS</title>
 		<link rel = "stylesheet" type = "text/css" href="..\css\airbus.css">
+
+		<script>
+			function A380info(num)
+			{
+				if (num === 0) {
+					var path = "..\\img\\airbus\\a380.png";
+					var newcode = "<div onclick='A380info(1)'><img src='"+path+"' id='a380'/><div onclick='showA380info()'><p id='a380Brand'>airbus</p><p id='a380Craft'>A380</p></div>";
+					document.getElementById('a380Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='A380info(2)'><img src='..\\img\\airbus\\a380.png' id='a380' /></div><p id='a380Description'>The A380 is Airbus' wide body, double deck aircraft which competes against Boeing's 747 series. 198 A380s have been built since 2005, of which the engines and wings are made in England, Spain and Germany. Emirates own the majority of A380s; 87 A380s exist in their fleet as of November 2016. It is also designed for 140,000 flying hours whilst also being the lowest emission aircraft.</p>";
+					document.getElementById('a380Box').innerHTML = newcode;	
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='A380info(0)'><img src='..\\img\\airbus\\a380.png' id='a380' /></div><p id='a380Stats'>Maximum speed: 	490 knots <br>Range: 8200 nautical miles<br>MTOW: 560,000 kilograms<br>MLW: 391,000 kilograms<br>Length: 72.7 meters<br>Height: 24.1 meters<br>Wingspan: 79.8 meters<br>Cabin Width: 6.6m<br>Seating: 8/98/420 (f/b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('a380Box').innerHTML = newcode;	
+				}
+			}
+		</script>
 	</head>
 	
 	<body>
         <div id="head">
 			<div id="stripe"></div>
 		</div>
-			<div id="headText">
-				<a href="..\index.html" id="headFlight" class="toIndex">flight</a>
-				<a href="..\index.html" id="headLevel" class="toIndex">level</a>
-				<a href="..\index.html" id="headNum" class="toIndex">240</a>
-				<p id="airbusTitle">AIRBUS</p>
+		<div id="headText">
+			<a href="..\index.html" id="headFlight" class="toIndex">flight</a>
+			<a href="..\index.html" id="headLevel" class="toIndex">level</a>
+			<a href="..\index.html" id="headNum" class="toIndex">240</a>
+			<p id="airbusTitle">AIRBUS</p>
+		</div>
+
+		<div id="a380Box">
+			<div onclick='A380info(1)'>
+				<img src='..\img\airbus\a380.png' id="a380" />
+					<p id='a380Brand'>airbus</p>
+					<p id='a380Craft'>A380</p>
 			</div>
+		</div>
 	</body>
 </html>

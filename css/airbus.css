@@ -8,6 +8,11 @@ body {
     overflow: hidden;
 }
 
+/* Generic Styles */
+p {
+	font-family: 'Comfortaa', cursive;
+}
+
 /* Header */
 #stripe {
 	position: relative;
@@ -61,11 +66,68 @@ body {
     position: relative;
 	top: -2.25em;
     left: 4em;
-    font-family: 'LuloCleanW01-One';
+    font-family: 'Poiret One';
     font-size: 5em;
     font-weight: bold;
 }
 
 .toIndex {
 	text-decoration: none;
+}
+
+#a380Box {
+	position: relative;
+	top: -10em;
+	height: 30em;
+	width: 25em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+	#a380Box:hover {
+		opacity: 0.9;
+	}
+
+#a380 {
+	position: relative;
+	left: 2em;
+	top: 5em;
+	width: 22.5em;
+	z-index: 0;
+}
+
+#a380Brand {
+	position: relative;
+	top: -0.2em;
+	left: 0.3em;
+	font-size: 7em;
+	color: #ffffff;
+}
+
+#a380craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1.3em;
+	left: 0.15em;
+	font-size: 8em;
+	color: #ffffff;
+}
+
+#a380Description {
+	position: relative;
+	top: 7.5em;
+	left: 0.5em;
+	width: 24em;
+	color: #ffffff;
+}
+
+#a380Stats {
+	position: relative;
+	top: 5em;
+	left: 5em;
+	color: #ffffff;
 }
