@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One');
-@import url('https://db.onlinewebfonts.com/c/116d187134420de5733c7c45bbc80c46?family=LuloCleanW01-One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Julius+Sans+One');
 
 body {
     background-image: url("../img/airbus/background.jpg");
@@ -75,11 +74,16 @@ p {
 	text-decoration: none;
 }
 
+/* A380 */
+
 #a380Box {
 	position: relative;
+    display: inline-block;
+	vertical-align: top;
 	top: -10em;
+	left: 3.5em;
 	height: 30em;
-	width: 25em; 
+	width: 22.5em; 
 	background-color: #111111;
 	opacity: 0.6;
 
@@ -94,16 +98,16 @@ p {
 
 #a380 {
 	position: relative;
-	left: 2em;
+	left: 1.5em;
 	top: 5em;
-	width: 22.5em;
+	width: 20em;
 	z-index: 0;
 }
 
 #a380Brand {
 	position: relative;
 	top: -0.2em;
-	left: 0.3em;
+	left: 0.1em;
 	font-size: 7em;
 	color: #ffffff;
 }
@@ -112,22 +116,213 @@ p {
 	position: relative;
 	font-family: "Poiret One", cursive;
 	top: -1.3em;
-	left: 0.15em;
-	font-size: 8em;
+	left: 0.1em;
+	font-size: 7.5em;
 	color: #ffffff;
 }
 
 #a380Description {
 	position: relative;
 	top: 7.5em;
-	left: 0.5em;
-	width: 24em;
+	left: 0.6em;
+	width: 21.5em;
 	color: #ffffff;
 }
 
 #a380Stats {
 	position: relative;
 	top: 5em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* A350 */
+
+#a350Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: -10em;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+	#a350Box:hover {
+		opacity: 0.9;
+	}
+
+#a350 {
+	position: relative;
+	left: 2em;
+	top: 6em;
+	width: 20em;
+	z-index: 0;
+}
+
+#a350Brand {
+	position: relative;
+	top: 0.15em;
+	left: 0.1em;
+	font-size: 7em;
+	color: #ffffff;
+}
+
+#a350craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#a350Description {
+	position: relative;
+	top: 9.5em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#a350Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 7em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* A330 */
+
+#a332Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: -10em;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+	#a332Box:hover {
+		opacity: 0.9;
+	}
+
+#a332 {
+	position: relative;
+	left: 2em;
+	top: 6em;
+	width: 20em;
+	z-index: 0;
+}
+
+#a332Brand {
+	position: relative;
+	top: 0.15em;
+	left: 0.1em;
+	font-size: 7em;
+	color: #ffffff;
+}
+
+#a332craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#a332Description {
+	position: relative;
+	top: 9.6em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#a332Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 7em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* A320 */
+
+#a320Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: -10em;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+	#a320Box:hover {
+		opacity: 0.9;
+	}
+
+#a320 {
+	position: relative;
+	left: 2em;
+	top: 5em;
+	width: 20em;
+	z-index: 0;
+}
+
+#a320Brand {
+	position: relative;
+	left: 0.1em;
+	font-size: 7em;
+	color: #ffffff;
+}
+
+#a320craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1.15em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#a320Description {
+	position: relative;
+	top: 8.75em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#a320Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 6em;
 	left: 5em;
 	color: #ffffff;
 }

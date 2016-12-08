@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One');
-@import url('https://db.onlinewebfonts.com/c/116d187134420de5733c7c45bbc80c46?family=LuloCleanW01-One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Julius+Sans+One');
 
 body {
     background-image: url("../img/boeing/background.jpg");
@@ -59,12 +58,11 @@ body {
 
 #boeingTitle {
     position: relative;
-	top: -2.25em;
+	top: -2.1em;
     left: 4em;
-    font-family: 'LuloCleanW01-One';
+    font-family: 'Julius Sans One';
     font-size: 5em;
     font-weight: bold;
-	letter-spacing: 2em;
 }
 
 .toIndex {
