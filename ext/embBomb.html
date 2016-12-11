@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FL240 | EMBARER / BOMBARDIER</title>
+		<link rel = "stylesheet" type = "text/css" href="../css/embBomb.css">
+		<script>
+			function bcs1info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='bcs1info(1)'><img src='../img/embBomb/bcs1.png' alt='Picture of a flyEastern Bombardier CS100' id='bcs1' /><div><p id='bcs1Brand'>bombardier</p><p id='bcs1Craft'>CS100</p></div>";
+					document.getElementById('bcs1Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='bcs1info(2)'><img src='../img/embBomb/bcs1.png' alt='Picture of a flyEastern Bombardier CS100' id='bcs1' /></div><p id='bcs1Description'>The Bombardier CSeries 100 is Bombardier's newest commerical jet aircraft. Built in Canada by Bombardier as a narrow-body jet airliner, its first introduction was with Swiss Global Air Lines on the 15th of July 2016. Air Baltic is also due to introduce its first CS300 as the launch customer on the 14th of December, 2016.</p>";
+					document.getElementById('bcs1Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='bcs1info(0)'><img src='../img/embBomb/bcs1.png' alt='Picture of a flyEastern Bombardier CS100' id='bcs1' /></div><p id='bcs1Stats'>Maximum speed: 	470 knots <br>Range: 3100 nautical miles<br>MTOW: 60,781 kilograms<br>MLW: 52,390 kilograms<br>Length: 35.0 metres<br>Height: 11.5 metres<br>Wingspan: 35.1 metres<br>Cabin Width: 3.28m<br>Seating: 8/108 (f/b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('bcs1Box').innerHTML = newcode;
+				}
+			}
+
+			function dh8dinfo(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='dh8dinfo(1)'><img src='../img/embBomb/dh8d.png' alt='Picture of an Alaska Airlines Bombardier Dash 8 Q400' id='dh8d'/><div><p id='dh8dBrand'>bombardier</p><p id='dh8dCraft'>dash 8 Q400</p></div>";
+					document.getElementById('dh8dBox').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='dh8dinfo(2)'><img src='../img/embBomb/dh8d.png' alt='Picture of an Alaska Airlines Bombardier Dash 8 Q400' id='dh8d' /></div><p id='dh8dDescription'>The Bombardier Dash 8 Q400 is one of the most common turboprop airlines our skies, with over 1200 Dash 8s delivered across the world. Jazz Air from Canada operate the Dash 8 Q400 primarily, whilst in Europe, Dash 8 Q400s are mostly found flying in Flybe colours.</p>";
+					document.getElementById('dh8dBox').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='dh8dinfo(0)'><img src='../img/embBomb/dh8d.png' alt='Picture of an Alaska Airlines Bombardier Dash 8 Q400' id='dh8d' /></div><p id='dh8dStats'>Maximum speed: 	349 knots <br>Range: 1,114 nautical miles<br>MTOW: 29,574 kilograms<br>MLW: 28,123 kilograms<br>Length: 32.8 metres<br>Height: 8.4 metres<br>Wingspan: 28.4 metres<br>Cabin Width: 18.80m<br>Seating: 78 (e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('dh8dBox').innerHTML = newcode;
+				}
+			}
+
+			function e175info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='e175info(1)'><img src='../img/embBomb/e175.png' alt='Picture of a Delta Airlines Embraer 175' id='e175'/><div><p id='e175Brand'>embraer</p><p id='e175Craft'>175</p></div>";
+					document.getElementById('e175Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='e175info(2)'><img src='../img/embBomb/e175.png' alt='Picture of a Delta Airlines Embraer 175' id='e175' /></div><p id='e175Description'>The Embraer 175 is a narrow-body jet airliner which had its first flight in 2002 and first introduced in 2004 with LOT Polish Airlines. Since 2001, 395 Embraer 175s have been delivered to airlines worldwide. E-jets have been used mainly to replace older competitors such as the Fokker 70 and BAe 146. Additionally, E175s have been mainly operated for regional shuttles on behalf of major airlines. </p>";
+					document.getElementById('e175Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='e175info(0)'><img src='../img/embBomb/e175.png' alt='Picture of a Delta Airlines Embraer 175' id='e175' /></div><p id='e175Stats'>Maximum speed: 481 knots <br>Range: 2200 nautical miles<br>MTOW: 40,370 kilograms<br>MLW: 34,000 kilograms<br>Length: 31.68 metres<br>Height: 9.67 metres<br>Wingspan: 28.70 metres<br>Cabin Width: 2.74m<br>Seating: 8/72 (f/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('e175Box').innerHTML = newcode;
+				}
+			}
+
+			function e195info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='e195info(1)'><img src='../img/embBomb/e195.png' alt='Picture of a Lufthansa Cityline Embraer 195' id='e195'/><div><p id='e195Brand'>embraer</p><p id='e195Craft'>195</p></div>";
+					document.getElementById('e195Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='e195info(2)'><img src='../img/embBomb/e195.png' alt='Picture of a Lufthansa Cityline Embraer 195' id='e195' /></div><p id='e195Description'>The Embraer 195 is a larger version of the Embraer 170 and 175 with a larger wing, a larger stabaliser and a new engine. The Embraer 195 competes against Bombardier's new aircraft, the CS100/CS300, the Airbus A318 and the Bombardier CRJ 1000. Embraer considered making an Embraer 195X, a stretched version of its Embraer 195 after American Airlines requested to find an aircraft to replace their McDonnell Douglas MD80s. This was scrapped by Embraer in 2010, due to range issues.</p>";
+					document.getElementById('e195Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='e195info(0)'><img src='../img/embBomb/e195.png' alt='Picture of a Lufthansa Cityline Embraer 195' id='e195' /></div><p id='e195Stats'>Maximum speed: 	481 knots <br>Range: 2300 nautical miles<br>MTOW: 52,290 kilograms<br>MLW: 45,800 kilograms<br>Length: 38.65 metres<br>Height: 10.57 metres<br>Wingspan: 35.90 metres<br>Cabin Width: 2.74m<br>Seating: 8/104 (b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('e195Box').innerHTML = newcode;
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+        <div id="head">
+			<div id="stripe"></div>
+		</div>
+		<div id="headText">
+				<a href="../index.html" id="headFlight" class="toIndex">flight</a>
+				<a href="../index.html" id="headLevel" class="toIndex">level</a>
+				<a href="../index.html" id="headNum" class="toIndex">240</a>
+				<p id="embBombTitle">EMBRAER &
+				<br>BOMBARDIER</p>
+		</div>
+
+		<div id="embBombBoxes">
+			<div id="bcs1Box">
+				<div onclick='bcs1info(1)'>
+					<img src='../img/embBomb/bcs1.png' alt='Picture of a flyEastern Bombardier CS100' id="bcs1" />
+						<p id='bcs1Brand'>bombardier</p>
+						<p id='bcs1Craft'>CS100</p>
+				</div>
+			</div>
+
+			<div id="dh8dBox">
+				<div onclick='dh8dinfo(1)'>
+					<img src='../img/embBomb/dh8d.png' alt='Picture of an Alaska Airlines Bombardier Dash 8 Q400' id="dh8d" />
+						<p id='dh8dBrand'>bombardier</p>
+						<p id='dh8dCraft'>dash 8 Q400</p>
+				</div>
+			</div>
+
+			<div id="e175Box">
+				<div onclick='e175info(1)'>
+					<img src='../img/embBomb/e175.png' alt='Picture of a Delta Airlines Embraer 175' id="e175" />
+						<p id='e175Brand'>embraer</p>
+						<p id='e175Craft'>175</p>
+				</div>
+			</div>
+		
+			<div id="e195Box">
+				<div onclick='e195info(1)'>
+					<img src='../img/embBomb/e195.png' alt='Picture of a Lufthansa Cityline Embraer 195' id="e195" />
+						<p id='e195Brand'>embraer</p>
+						<p id='e195Craft'>195</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

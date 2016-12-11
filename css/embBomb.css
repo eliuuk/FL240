@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Dosis');
+
+body {
+    background-image: url("../img/embBomb/background.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+
+p {
+	font-family: 'Comfortaa', cursive;
+}
+
+/* Header */
+#stripe {
+	position: relative;
+	left: -10px;
+	width: 101em;
+	height: 25px; 
+	background: linear-gradient(to right, #242424, #1153B3, #242424);
+}
+
+#head {
+	position: relative;
+	top: 10em;
+	width: 200em;
+}
+
+#headText {
+	position: relative;
+	text-align: center;
+    top: 1em;
+	left: 30em;
+	width: 20em;
+	height: 10em;
+}
+
+#headFlight {
+	position: relative;
+	right: 3em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #FFE942;
+}
+#headLevel {
+	position: relative;
+	top: 0.85em;
+	left: -5.45em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #FFE942;
+}
+
+#headNum {
+	position: relative;
+	top: -0.7em;
+	left: -0.5em;
+	font-family: 'Indie Flower', cursive;
+	font-size: 6em;
+	font-weight: bold;
+	color: rgb(236, 240, 241);
+}
+
+#embBombTitle {
+    position: relative;
+	top: -3.75em;
+    left: 4em;
+	width: 5em;
+	line-height: 0.85em;
+    font-family: 'Dosis', cursive;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.toIndex {
+	text-decoration: none;
+}
+
+#embBombBoxes {
+	position: relative;
+	top: 9.5em;
+	left: -1.5em;
+}
+
+#bcs1Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em;
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#bcs1Box:hover {
+		opacity: 0.9;
+	}
+
+#bcs1 {
+	position: relative;
+	left: 1.5em;
+	top: 4.75em;
+	width: 20em;
+	z-index: 0;
+}
+
+#bcs1Brand {
+	position: relative;
+	font-family: "Dosis", cursive;
+	top: 0.2em;
+	left: 0.05em;
+	font-size: 6.25em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#bcs1Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -0.9em;
+	left: 0.05em;
+	font-size: 6em;
+	color: #ffffff;
+}
+
+#bcs1Description {
+	position: relative;
+	top: 5.75em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#bcs1Stats {
+	position: relative;
+	top: 5.25em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* dh8d */
+
+#dh8dBox {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#dh8dBox:hover {
+		opacity: 0.9;
+	}
+
+#dh8d {
+	position: relative;
+	left: 2em;
+	top: 6em;
+	width: 20em;
+	z-index: 0;
+}
+
+#dh8dBrand {
+	position: relative;
+	font-family: "Dosis", cursive;
+	top: 0.5em;
+	left: 0.05em;
+	font-size: 6.25em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#dh8dCraft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1em;
+	left: 0.05em;
+	line-height: 0.95em;
+	width: 6em;
+	font-size: 4.25em;
+	color: #ffffff;
+}
+
+#dh8dDescription {
+	position: relative;
+	top: 7.5em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#dh8dStats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 7em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* e175 */
+
+#e175Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em;
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#e175Box:hover {
+		opacity: 0.9;
+	}
+
+#e175 {
+	position: relative;
+	left: 2em;
+	top: 4.75em;
+	width: 20em;
+	z-index: 0;
+}
+
+#e175Brand {
+	position: relative;
+	font-family: "Dosis", cursive;
+	top: -0.15em;
+	left: 0.05em;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#e175Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1.25em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#e175Description {
+	position: relative;
+	top: 4.75em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#e175Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 4.25em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* e195 */
+
+#e195Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#e195Box:hover {
+		opacity: 0.9;
+	}
+
+#e195 {
+	position: relative;
+	left: 2em;
+	top: 5.75em;
+	width: 20em;
+	z-index: 0;
+}
+
+#e195Brand {
+	position: relative;
+	top: 0.1em;
+	font-family: "Dosis", cursive;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#e195Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#e195Description {
+	position: relative;
+	top: 6.5em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#e195Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 6.25em;
+	left: 3.5em;
+	color: #ffffff;
+}
