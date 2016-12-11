@@ -27,7 +27,7 @@ body {
 	font-family: 'Comfortaa', cursive;
 	font-size: 2.5em;
 	font-weight: bold;
-	color: #59BEDF; 
+	color: #59BEDF;
 }
 #headLevel {
 	position: relative;
@@ -102,6 +102,16 @@ body {
 	top: -3.5em;
 	left: 10em;
 	color: #111111;
+	font-family: "Nunito", cursive;
+	font-size: 4em;
+	z-index: 2;
+}
+
+#cessnaTxt {
+	position: relative;
+	top: -3.5em;
+	left: 10em;
+	color: #ffffff;
 	font-family: "Nunito", cursive;
 	font-size: 4em;
 	z-index: 2;

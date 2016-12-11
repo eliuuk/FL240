@@ -10,7 +10,7 @@
 				{
 					if ((slideNo - 1) === 0)
 					{
-						slideNo = 3
+						slideNo = 4
 					} else {
 						slideNo = slideNo - 1
 					}
@@ -18,7 +18,7 @@
 				}
 				function rightClick()
 				{
-					if ((slideNo + 1) === 4)
+					if ((slideNo + 1) === 5)
 					{
 						slideNo = 1
 					} else {
@@ -39,6 +39,10 @@
 					}
 					if (slideNo === 3) {
 						var newcode = "<a href='ext/embBomb.html'><img src='img/index/fntCS100.jpg' alt='Picture of a Boeing 737-900' id='frontAircraft'></a><p id='embBombTxt'>EMBRAER & BOMBARDIER</p>"
+						document.getElementById("box").innerHTML = newcode
+					}
+					if (slideNo === 4) {
+						var newcode = "<a href='ext/cessna.html'><img src='img/index/fntCessna.jpg' alt='Picture of 2 Cessna aircraft on top of each other' id='frontAircraft'></a><p id='cessnaTxt'>CESSNA</p>"
 						document.getElementById("box").innerHTML = newcode
 					}
 				}

@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Raleway');
+
+body {
+    background-image: url("../img/cessna/background.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+
+p {
+	font-family: 'Comfortaa', cursive;
+}
+
+/* Header */
+#stripe {
+	position: relative;
+	left: -10px;
+	width: 101em;
+	height: 25px; 
+	background: linear-gradient(to right, #242424, #1153B3, #242424);
+}
+
+#head {
+	position: relative;
+	top: 10em;
+	width: 200em;
+}
+
+#headText {
+	position: relative;
+	text-align: center;
+    top: 1em;
+	left: 30em;
+	width: 20em;
+	height: 10em;
+}
+
+#headFlight {
+	position: relative;
+	right: 3em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #EA7810;
+}
+#headLevel {
+	position: relative;
+	top: 0.85em;
+	left: -5.45em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #EA7810;
+}
+
+#headNum {
+	position: relative;
+	top: -0.7em;
+	left: -0.5em;
+	font-family: 'Indie Flower', cursive;
+	font-size: 6em;
+	font-weight: bold;
+	color: rgb(236, 240, 241);
+}
+
+#cessnaTitle {
+    position: relative;
+	top: -3.25em;
+    left: 4em;
+	width: 5em;
+	line-height: 0.85em;
+    font-family: 'Raleway', cursive;
+    font-size: 5em;
+    font-weight: bold;
+	color: #ffffff;
+}
+
+.toIndex {
+	text-decoration: none;
+}
+
+#cessnaBoxes {
+	position: relative;
+	top: 9.5em;
+	left: -1.5em;
+}
+
+#c750Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em;
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#c750Box:hover {
+		opacity: 0.9;
+	}
+
+#c750 {
+	position: relative;
+	left: 1.5em;
+	top: 4.75em;
+	width: 20em;
+	z-index: 0;
+}
+
+#c750Brand {
+	position: relative;
+	font-family: "Raleway", cursive;
+	top: 0.2em;
+	left: 0.05em;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#c750Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -0.9em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#c750Description {
+	position: relative;
+	top: 7.25em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#c750Stats {
+	position: relative;
+	top: 6.5em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* c400 */
+
+#c400Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#c400Box:hover {
+		opacity: 0.9;
+	}
+
+#c400 {
+	position: relative;
+	left: 2em;
+	top: 3.5em;
+	width: 20em;
+	z-index: 0;
+}
+
+#c400Brand {
+	position: relative;
+	font-family: "Raleway", cursive;
+	top: -0.15em;
+	left: 0.05em;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#c400Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1.125em;
+	left: 0.05em;
+	line-height: 0.95em;
+	width: 6em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#c400Description {
+	position: relative;
+	top: 4.75em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#c400Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 4em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* c208 */
+
+#c208Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em;
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#c208Box:hover {
+		opacity: 0.9;
+	}
+
+#c208 {
+	position: relative;
+	left: 2em;
+	top: 3.5em;
+	width: 20em;
+	z-index: 0;
+}
+
+#c208Brand {
+	position: relative;
+	font-family: "Raleway", cursive;
+	top: -0.15em;
+	left: 0.05em;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#c208Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1.25em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#c208Description {
+	position: relative;
+	top: 4.75em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#c208Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 4.25em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* c172 */
+
+#c172Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#c172Box:hover {
+		opacity: 0.9;
+	}
+
+#c172 {
+	position: relative;
+	left: 2em;
+	top: 5em;
+	width: 20em;
+	z-index: 0;
+}
+
+#c172Brand {
+	position: relative;
+	top: 0.1em;
+	font-family: "Raleway", cursive;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#c172Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#c172Description {
+	position: relative;
+	top: 6.5em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#c172Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 6.25em;
+	left: 3.5em;
+	color: #ffffff;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FL240 | CESSNA</title>
+		<link rel = "stylesheet" type = "text/css" href="../css/cessna.css">
+		<script>
+			function c750info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='c750info(1)'><img src='../img/cessna/c750.png' alt='Picture of a flyEastern cessna CS100' id='c750' /><div><p id='c750Brand'>cessna</p><p id='c750Craft'>750</p></div>";
+					document.getElementById('c750Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='c750info(2)'><img src='../img/cessna/c750.png' alt='Picture of a flyEastern cessna CS100' id='c750' /></div><p id='c750Description'>The Cessna 750, more commonly known as the Cessna Citation X is an American built business jet, first produced in 1996. The Cessna 750 is a successor to the Cessna 650 model, which was first given interest by the Customer Adivsory Council which were interested in an increased speed and a pressurised baggage compartment.</p>";
+					document.getElementById('c750Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='c750info(0)'><img src='../img/cessna/c750.png' alt='Picture of a flyEastern cessna CS100' id='c750' /></div><p id='c750Stats'>Maximum speed: 	527 knots <br>Range: 3216 nautical miles<br>MTOW: 16,374 kilograms<br>MLW: 14,515 kilograms<br>Length: 22.05 metres<br>Height: 5.84 metres<br>Wingspan: 19.38 metres<br>Cabin Width: 3.9m<br>Seating: 12 passengers<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('c750Box').innerHTML = newcode;
+				}
+			}
+
+			function c400info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='c400info(1)'><img src='../img/cessna/c400.png' alt='Picture of an Alaska Airlines cessna Dash 8 Q400' id='c400'/><div><p id='c400Brand'>cessna</p><p id='c400Craft'>400</p></div>";
+					document.getElementById('c400Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='c400info(2)'><img src='../img/cessna/c400.png' alt='Picture of an Alaska Airlines cessna Dash 8 Q400' id='c400' /></div><p id='c400Description'>The Cessna 400, also known as the Cessna TTx is the fastest fixed-gear, single engine piston aircraft which is certified by the FAA and in service today. The Cessna 400 does not have a nosewheel that turns; control when taxiing is accomplished by applying braking on different wheels.</p>";
+					document.getElementById('c400Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='c400info(0)'><img src='../img/cessna/c400.png' alt='Picture of an Alaska Airlines cessna Dash 8 Q400' id='c400' /></div><p id='c400Stats'>Maximum speed: 	235 knots <br>Range: 1,107 nautical miles<br>MTOW: 1,633 kilograms<br>MLW: 1,551 kilograms<br>Length: 7.67 metres<br>Height: 2.74 metres<br>Wingspan: 11.0 metres<br>Cabin Width: 1.24m<br>Seating: 3 passengers<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('c400Box').innerHTML = newcode;
+				}
+			}
+
+			function c208info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='c208info(1)'><img src='../img/cessna/c208.png' alt='Picture of a Delta Airlines cessna 175' id='c208'/><div><p id='c208Brand'>cessna</p><p id='c208Craft'>208</p></div>";
+					document.getElementById('c208Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='c208info(2)'><img src='../img/cessna/c208.png' alt='Picture of a Delta Airlines cessna 175' id='c208' /></div><p id='c208Description'>The Cessna 208 is widely known as the Cessna Caravan. This turboprop aircraft serves many useful services such as being a cargo feeder and for military transportation. FedEx is the largest operator of the Caravan with 238 aircraft. The Cessna 208 is also a popular choice as a military feeder across Southern America and Asia.</p>";
+					document.getElementById('c208Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='c208info(0)'><img src='../img/cessna/c208.png' alt='Picture of a Delta Airlines cessna 175' id='c208' /></div><p id='c208Stats'>Maximum speed: 186 knots <br>Range: 1232 nautical miles<br>MTOW: 3,629 kilograms<br>MLW: 3,538 kilograms<br>Length: 11.46 metres<br>Height: 4.53 metres<br>Wingspan: 15.87 metres<br>Cabin Width: 1.63m<br>Seating: 13 passengers<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('c208Box').innerHTML = newcode;
+				}
+			}
+
+			function c172info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='c172info(1)'><img src='../img/cessna/c172.png' alt='Picture of a Lufthansa Cityline cessna 195' id='c172'/><div><p id='c172Brand'>cessna</p><p id='c172Craft'>172</p></div>";
+					document.getElementById('c172Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='c172info(2)'><img src='../img/cessna/c172.png' alt='Picture of a Lufthansa Cityline cessna 195' id='c172' /></div><p id='c172Description'>The Cessna 172, also known as the Cessna Skyhawk is a four seat, single engine, fixed wing aircraft first flowin in 1955. Cessna 172s have been built more than any other commerical aircraft. Over 43,000 Cessna Skyhawks have been built since its first introduction in 1956, with the original 172 costing US$8,700. It has seen many competitors such as the Piper Cherokee.</p>";
+					document.getElementById('c172Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='c172info(0)'><img src='../img/cessna/c172.png' alt='Picture of a Lufthansa Cityline cessna 195' id='c172' /></div><p id='c172Stats'>Maximum speed: 	122 knots <br>Range: 696 nautical miles<br>MTOW: 1,157 kilograms<br>MLW: 1,157 kilograms<br>Length: 8.28 metres<br>Height: 2.72 metres<br>Wingspan: 11.00 metres<br>Cabin Width: 1.00m<br>Seating: 4 passengers<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('c172Box').innerHTML = newcode;
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+        <div id="head">
+			<div id="stripe"></div>
+		</div>
+		<div id="headText">
+				<a href="../index.html" id="headFlight" class="toIndex">flight</a>
+				<a href="../index.html" id="headLevel" class="toIndex">level</a>
+				<a href="../index.html" id="headNum" class="toIndex">240</a>
+				<p id="cessnaTitle">CESSNA</p>
+		</div>
+
+		<div id="cessnaBoxes">
+			<div id="c750Box">
+				<div onclick='c750info(1)'>
+					<img src='../img/cessna/c750.png' alt='Picture of a flyEastern cessna CS100' id="c750" />
+						<p id='c750Brand'>cessna</p>
+						<p id='c750Craft'>750</p>
+				</div>
+			</div>
+
+			<div id="c400Box">
+				<div onclick='c400info(1)'>
+					<img src='../img/cessna/c400.png' alt='Picture of an Alaska Airlines cessna Dash 8 Q400' id="c400" />
+						<p id='c400Brand'>cessna</p>
+						<p id='c400Craft'>400</p>
+				</div>
+			</div>
+
+			<div id="c208Box">
+				<div onclick='c208info(1)'>
+					<img src='../img/cessna/c208.png' alt='Picture of a Delta Airlines cessna 175' id="c208" />
+						<p id='c208Brand'>cessna</p>
+						<p id='c208Craft'>208</p>
+				</div>
+			</div>
+
+			<div id="c172Box">
+				<div onclick='c172info(1)'>
+					<img src='../img/cessna/c172.png' alt='Picture of a Lufthansa Cityline cessna 195' id="c172" />
+						<p id='c172Brand'>cessna</p>
+						<p id='c172Craft'>172</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
