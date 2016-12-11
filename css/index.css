@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Nunito|Dosis');
 
 body {
 	background-image: url("../img/index/background.jpg");
@@ -51,7 +51,7 @@ body {
 #headText {
 	position: relative;
 	text-align: center;
-	left: 1em;
+	left: 4em;
 }
 
 /* Main Content */
@@ -63,17 +63,17 @@ body {
 }
 
 /* Airbus */
-#leftBox {
+#box {
 	position: relative;
     display: inline-block;
 	vertical-align: top;
-	bottom: 16em;
-	left: 10em;
+	bottom: 20em;
+	left: 16em;
 }
 
-#fntA350 {
-	width: 35em;
-	height: 30em;
+#frontAircraft {
+	height: 47.5em;
+	width: 62.5em;
 
    	transition: opacity .25s ease-in-out;
    	-moz-transition: opacity .25s ease-in-out;
@@ -86,8 +86,8 @@ body {
 
 #airbusTxt {
 	position: relative;
-	top: -8.2em;
-	left: 2em;
+	top: -11.5em;
+	left: 1.75em;
 	color: #ffffff;
 
 	letter-spacing: -0.101em;
@@ -97,36 +97,64 @@ body {
 	z-index: 2;
 }
 
-/* Boeing */
-#rightBox {
+#boeingTxt {
 	position: relative;
-    display: inline-block;
-	vertical-align: top;
-	bottom: 16em;
-	right: -27.5em;
+	top: -3.5em;
+	left: 10em;
+	color: #111111;
+	font-family: "Nunito", cursive;
+	font-size: 4em;
+	z-index: 2;
 }
 
-#fntB789 {
-	width: 35em;
-	height: 30em;
-	
+#embBombTxt {
+	position: relative;
+	top: -10em;
+	left: 1em;
+	color: #111111;
+	font-family: "Dosis", cursive;
+	font-size: 4em;
+	z-index: 2;
+}
+
+#leftCircle {
+	position: relative;
+	top: -30em;
+	left: 2em;
+	width: 10em;
+	height: 10em;
+	background: #111111;
+	opacity: 0.5;
+	-moz-border-radius: 5em;
+	-webkit-border-radius: 5em;
+	border-radius: 5em;
+
    	transition: opacity .25s ease-in-out;
    	-moz-transition: opacity .25s ease-in-out;
    	-webkit-transition: opacity .25s ease-in-out;
 }
 
-	#fntB789:hover {
-		opacity: 0.75;
-	}
+#leftCircle:hover {
+	opacity: 1;
+}
 
-#boeingTxt {
+#rightCircle {
 	position: relative;
-	bottom: 2.5em;
-	left: 2em;
-	color: #111111;
+	top: -40em;
+	right: -82.5em;
+	width: 10em;
+	height: 10em;
+	background: #111111;
+	opacity: 0.5;
+	-moz-border-radius: 5em;
+	-webkit-border-radius: 5em;
+	border-radius: 5em;
 
-	letter-spacing: -0.101em;
-	font-family: "Julius Sans One", cursive;
-	font-size: 4em;
-	z-index: 2;
+   	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+}
+
+#rightCircle:hover {
+	opacity: 1;
 }

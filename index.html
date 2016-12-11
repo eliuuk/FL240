@@ -1,9 +1,49 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>FL240</title>
 		<link rel="stylesheet" href="css/index.css" />
+			<script>
+				var slideNo = 1
+
+				function leftClick()
+				{
+					if ((slideNo - 1) === 0)
+					{
+						slideNo = 3
+					} else {
+						slideNo = slideNo - 1
+					}
+					imageChange(slideNo)
+				}
+				function rightClick()
+				{
+					if ((slideNo + 1) === 4)
+					{
+						slideNo = 1
+					} else {
+						slideNo = slideNo + 1
+					}
+					imageChange(slideNo)
+				}
+
+				function imageChange(slideNo)
+				{
+					if (slideNo === 1) {
+						var newcode = "<a href='ext/airbus.html'><img src='img/index/fntA350.jpg' alt='Picture of an Airbus A350 XWB' id='frontAircraft'></a><p id='airbusTxt'>AIRBUS</p>"
+						document.getElementById("box").innerHTML = newcode
+					}
+					if (slideNo === 2) {
+						var newcode = "<a href='ext/boeing.html'><img src='img/index/fntB789.jpg' alt='Picture of a Boeing 737-900' id='frontAircraft'></a><p id='boeingTxt'>BOEING</p>"
+						document.getElementById("box").innerHTML = newcode
+					}
+					if (slideNo === 3) {
+						var newcode = "<a href='ext/embBomb.html'><img src='img/index/fntCS100.jpg' alt='Picture of a Boeing 737-900' id='frontAircraft'></a><p id='embBombTxt'>EMBRAER & BOMBARDIER</p>"
+						document.getElementById("box").innerHTML = newcode
+					}
+				}
+		</script>
 	</head>
-	
 	<body>
 		<div id="head">
 			<div id="stripe"></div>
@@ -13,19 +53,15 @@
 			<p id="headLevel">level</p>
 			<p id="headNum">240</p>
 		</div>
-		<div id="buttons">
-			<div class ="generalBox" id="leftBox">
-				<a href="ext\airbus.html">
-					<img src="img\index\fntA350.jpg" alt="Picture of an Airbus A350 XWB" id="fntA350">
-				</a>
-				<p id="airbusTxt">AIRBUS</p>
-			</div>
-			<div class ="generalBox" id="rightBox">
-				<a href="ext\boeing.html">
-					<img src="img\index\fntB789.jpg" alt="Picture of a Boeing 787-900" id="fntB789">
-				</a>
-				<p id="boeingTxt">BOEING</p>
-			</div>
+
+		<div class ="generalBox" id="box">
+			<a href="ext/airbus.html">
+				<img src="img/index/fntA350.jpg" alt="Picture of an Airbus A350 XWB" id="frontAircraft">
+			</a>
+			<p id="airbusTxt">AIRBUS</p>
 		</div>
+
+		<div id="leftCircle" onclick="leftClick()"></div>
+		<div id="rightCircle" onclick="rightClick()"></div>
 	</body>
 </html>
