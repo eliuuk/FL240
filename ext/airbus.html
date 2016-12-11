@@ -1,21 +1,22 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>FL240 | AIRBUS</title>
-		<link rel = "stylesheet" type = "text/css" href="..\css\airbus.css">
+		<title>FL240 | EMBRAER & BOMBARDIER</title>
+		<link rel = "stylesheet" type = "text/css" href="../css/airbus.css">
 
 		<script>
 			function A380info(num)
 			{
 				if (num === 0) {
-					var newcode = "<div onclick='A380info(1)'><img src='..\\img\\airbus\\a380.png' id='a380' /><div><p id='a380Brand'>airbus</p><p id='a380Craft'>A380</p></div>";
+					var newcode = "<div onclick='A380info(1)'><img src='../img/airbus/a380.png' alt="Picture of a Lufthansa A380" id='a380' /><div><p id='a380Brand'>airbus</p><p id='a380Craft'>A380</p></div>";
 					document.getElementById('a380Box').innerHTML = newcode;
 				}
 				if (num === 1) {
-					var newcode = "<div onclick='A380info(2)'><img src='..\\img\\airbus\\a380.png' id='a380' /></div><p id='a380Description'>The A380 is Airbus' wide body, double deck aircraft which competes against Boeing's 747 series. 198 A380s have been built since 2005, of which the engines and wings are made in England, Spain and Germany. Emirates own the majority of A380s; 87 A380s exist in their fleet as of November 2016. It is also designed for 140,000 flying hours whilst also being the lowest emission aircraft.</p>";
+					var newcode = "<div onclick='A380info(2)'><img src='../img/airbus/a380.png' alt="Picture of a Lufthansa A380" id='a380' /></div><p id='a380Description'>The A380 is Airbus' wide body, double deck aircraft which competes against Boeing's 747 series. 198 A380s have been built since 2005, of which the engines and wings are made in England, Spain and Germany. Emirates own the majority of A380s; 87 A380s exist in their fleet as of November 2016. It is also designed for 140,000 flying hours whilst also being the lowest emission aircraft.</p>";
 					document.getElementById('a380Box').innerHTML = newcode;	
 				}
 				if (num === 2) {
-					var newcode = "<div onclick='A380info(0)'><img src='..\\img\\airbus\\a380.png' id='a380' /></div><p id='a380Stats'>Maximum speed: 	490 knots <br>Range: 8200 nautical miles<br>MTOW: 560,000 kilograms<br>MLW: 391,000 kilograms<br>Length: 72.7 metres<br>Height: 24.1 metres<br>Wingspan: 79.8 metres<br>Cabin Width: 6.6m<br>Seating: 8/98/420 (f/b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					var newcode = "<div onclick='A380info(0)'><img src='../img/airbus/a380.png' alt="Picture of a Lufthansa A380" id='a380' /></div><p id='a380Stats'>Maximum speed: 	490 knots <br>Range: 8200 nautical miles<br>MTOW: 560,000 kilograms<br>MLW: 391,000 kilograms<br>Length: 72.7 metres<br>Height: 24.1 metres<br>Wingspan: 79.8 metres<br>Cabin Width: 6.6m<br>Seating: 8/98/420 (f/b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
 					document.getElementById('a380Box').innerHTML = newcode;	
 				}
 			}
@@ -23,15 +24,15 @@
 			function A350info(num)
 			{
 				if (num === 0) {
-					var newcode = "<div onclick='A350info(1)'><img src='..\\img\\airbus\\a350.png' id='A350'/><div><p id='A350Brand'>airbus</p><p id='A350Craft'>A350</p></div>";
+					var newcode = "<div onclick='A350info(1)'><img src='../img/airbus/a350.png' alt='Picture of a Qatar Airways A359' id='A350'/><div><p id='A350Brand'>airbus</p><p id='A350Craft'>A350</p></div>";
 					document.getElementById('a350Box').innerHTML = newcode;
 				}
 				if (num === 1) {
-					var newcode = "<div onclick='A350info(2)'><img src='..\\img\\airbus\\a350.png' id='A350' /></div><p id='A350Description'>The A350 Xtra Wide Body is Airbus' newest aircraft brand. The A350's maiden flight was on the 14th of June 2013, and the first aircraft was delivered to Qatar Airways, going into commercial service on 15th of January 2015. 49 A350s have been built since 2014. The most recent model, the A350-1000 XWB went for its maiden flight on the 24th of November, 2016.</p>";
+					var newcode = "<div onclick='A350info(2)'><img src='../img/airbus/a350.png' alt='Picture of a Qatar Airways A359' id='A350' /></div><p id='A350Description'>The A350 Xtra Wide Body is Airbus' newest aircraft brand. The A350's maiden flight was on the 14th of June 2013, and the first aircraft was delivered to Qatar Airways, going into commercial service on 15th of January 2015. 49 A350s have been built since 2014. The most recent model, the A350-1000 XWB went for its maiden flight on the 24th of November, 2016.</p>";
 					document.getElementById('a350Box').innerHTML = newcode;	
 				}
 				if (num === 2) {
-					var newcode = "<div onclick='A350info(0)'><img src='..\\img\\airbus\\a350.png' id='A350' /></div><p id='A350Stats'>Maximum speed: 	513 knots <br>Range: 10800 nautical miles<br>MTOW: 279,413 kilograms<br>MLW: 211,374 kilograms<br>Length: 73.78 metres<br>Height: 17.08 metres<br>Wingspan: 64.75 metres<br>Cabin Width: 5.61m<br>Seating: 42/24/187 (f/pe/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					var newcode = "<div onclick='A350info(0)'><img src='../img/airbus/a350.png' alt='Picture of a Qatar Airways A359' id='A350' /></div><p id='A350Stats'>Maximum speed: 	513 knots <br>Range: 10800 nautical miles<br>MTOW: 279,413 kilograms<br>MLW: 211,374 kilograms<br>Length: 73.78 metres<br>Height: 17.08 metres<br>Wingspan: 64.75 metres<br>Cabin Width: 5.61m<br>Seating: 42/24/187 (f/pe/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
 					document.getElementById('a350Box').innerHTML = newcode;	
 				}
 			}
@@ -39,15 +40,15 @@
 			function A332info(num)
 			{
 				if (num === 0) {
-					var newcode = "<div onclick='A332info(1)'><img src='..\\img\\airbus\\a332.png' id='a332'/><div><p id='a332Brand'>airbus</p><p id='a332Craft'>A332</p></div>";
+					var newcode = "<div onclick='A332info(1)'><img src='../img/airbus/a332.png' alt='Picture of a Vietnam Airlines A332' id='a332'/><div><p id='a332Brand'>airbus</p><p id='a332Craft'>A332</p></div>";
 					document.getElementById('a332Box').innerHTML = newcode;
 				}
 				if (num === 1) {
-					var newcode = "<div onclick='A332info(2)'><img src='..\\img\\airbus\\a332.png' id='a332' /></div><p id='a332Description'>The Airbus A330/A340 are developed from the A300, with the first flight in November 1992. The primary users of the A330/A340 include Turkish Airlines, Air China and China Eastern Airlines. Since 1992, 1297 A330s have been delivered and 391 A340s have been delivered. The A340 is also a common choice for government and private jet operations.</p>";
+					var newcode = "<div onclick='A332info(2)'><img src='../img/airbus/a332.png' alt='Picture of a Vietnam Airlines A332' id='a332' /></div><p id='a332Description'>The Airbus A330/A340 are developed from the A300, with the first flight in November 1992. The primary users of the A330/A340 include Turkish Airlines, Air China and China Eastern Airlines. Since 1992, 1297 A330s have been delivered and 391 A340s have been delivered. The A340 is also a common choice for government and private jet operations.</p>";
 					document.getElementById('a332Box').innerHTML = newcode;	
 				}
 				if (num === 2) {
-					var newcode = "<div onclick='A332info(0)'><img src='..\\img\\airbus\\a332.png' id='a332' /></div><p id='a332Stats'>Maximum speed: 	470 knots <br>Range: 7250 nautical miles<br>MTOW: 242,000 kilograms<br>MLW: 182,000 kilograms<br>Length: 58.82 metres<br>Height: 17.39 metres<br>Wingspan: 60.30 metres<br>Cabin Width: 5.28m<br>Seating: 8/48/161 (f/b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					var newcode = "<div onclick='A332info(0)'><img src='../img/airbus/a332.png' alt='Picture of a Vietnam Airlines A332' id='a332' /></div><p id='a332Stats'>Maximum speed: 	470 knots <br>Range: 7250 nautical miles<br>MTOW: 242,000 kilograms<br>MLW: 182,000 kilograms<br>Length: 58.82 metres<br>Height: 17.39 metres<br>Wingspan: 60.30 metres<br>Cabin Width: 5.28m<br>Seating: 8/48/161 (f/b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
 					document.getElementById('a332Box').innerHTML = newcode;	
 				}
 			}
@@ -55,59 +56,61 @@
 			function A320info(num)
 			{
 				if (num === 0) {
-					var newcode = "<div onclick='A320info(1)'><img src='..\\img\\airbus\\a320.png' id='a320'/><div><p id='a320Brand'>airbus</p><p id='a320Craft'>A320</p></div>";
+					var newcode = "<div onclick='A320info(1)'><img src='../img/airbus/a320.png' alt='Picture of a Virgin America A320' id='a320'/><div><p id='a320Brand'>airbus</p><p id='a320Craft'>A320</p></div>";
 					document.getElementById('a320Box').innerHTML = newcode;
 				}
 				if (num === 1) {
-					var newcode = "<div onclick='A320info(2)'><img src='..\\img\\airbus\\a320.png' id='a320' /></div><p id='a320Description'>The Airbus A320 family includes 4 aircraft: Airbus A318, Airbus A319, Airbus A320 and Airbus A321. Over 12,800 orders have been made for the Airbus A320 family. Every 7 hours an A320 family aircraft leaves one of Airbus' 4 assembly lines. Along with that, 85% of an A320 at the end of its lifecycle can be reused.</p>";
+					var newcode = "<div onclick='A320info(2)'><img src='../img/airbus/a320.png' alt='Picture of a Virgin America A320' id='a320' /></div><p id='a320Description'>The Airbus A320 family includes 4 aircraft: Airbus A318, Airbus A319, Airbus A320 and Airbus A321. Over 12,800 orders have been made for the Airbus A320 family. Every 7 hours an A320 family aircraft leaves one of Airbus' 4 assembly lines. Along with that, 85% of an A320 at the end of its lifecycle can be reused.</p>";
 					document.getElementById('a320Box').innerHTML = newcode;	
 				}
 				if (num === 2) {
-					var newcode = "<div onclick='A320info(0)'><img src='..\\img\\airbus\\a320.png' id='a320' /></div><p id='a320Stats'>Maximum speed: 	447 knots <br>Range: 3300 nautical miles<br>MTOW: 66,678 kilograms<br>MLW: 58,513 kilograms<br>Length: 37.57 metres<br>Height: 11.76 metres<br>Wingspan: 35.80 metres<br>Cabin Width: 3.70m<br>Seating: 28/126 (b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
-					document.getElementById('a320Box').innerHTML = newcode;	
+					var newcode = "<div onclick='A320info(0)'><img src='../img/airbus/a320.png' alt='Picture of a Virgin America A320' id='a320' /></div><p id='a320Stats'>Maximum speed: 	447 knots <br>Range: 3300 nautical miles<br>MTOW: 66,678 kilograms<br>MLW: 58,513 kilograms<br>Length: 37.57 metres<br>Height: 11.76 metres<br>Wingspan: 35.80 metres<br>Cabin Width: 3.70m<br>Seating: 28/126 (f/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('a320Box').innerHTML = newcode;
 				}
 			}
 		</script>
 	</head>
-	
+
 	<body>
         <div id="head">
 			<div id="stripe"></div>
 		</div>
 		<div id="headText">
-			<a href="..\index.html" id="headFlight" class="toIndex">flight</a>
-			<a href="..\index.html" id="headLevel" class="toIndex">level</a>
-			<a href="..\index.html" id="headNum" class="toIndex">240</a>
+			<a href="../index.html" id="headFlight" class="toIndex">flight</a>
+			<a href="../index.html" id="headLevel" class="toIndex">level</a>
+			<a href="../index.html" id="headNum" class="toIndex">240</a>
 			<p id="airbusTitle">AIRBUS</p>
 		</div>
 
-		<div id="a380Box">
-			<div onclick='A380info(1)'>
-				<img src='..\img\airbus\a380.png' id="a380" />
-					<p id='a380Brand'>airbus</p>
-					<p id='a380Craft'>A380</p>
+		<div id="airbusBoxes">
+			<div id="a380Box">
+				<div onclick='A380info(1)'>
+					<img src='../img/airbus/a380.png' alt="Picture of a Lufthansa A380" id="a380" />
+						<p id='a380Brand'>airbus</p>
+						<p id='a380Craft'>A380</p>
+				</div>
 			</div>
-		</div>
 
-		<div id="a350Box">
-			<div onclick='A350info(1)'>
-				<img src='..\img\airbus\a350.png' id="a350" />
-					<p id='a350Brand'>airbus</p>
-					<p id='a350Craft'>A350</p>
+			<div id="a350Box">
+				<div onclick='A350info(1)'>
+					<img src='../img/airbus/a350.png' alt='Picture of a Qatar Airways A359' id="a350" />
+						<p id='a350Brand'>airbus</p>
+						<p id='a350Craft'>A350</p>
+				</div>
 			</div>
-		</div>
-		<div id="a332Box">
-			<div onclick='A332info(1)'>
-				<img src='..\img\airbus\a332.png' id="a332" />
-					<p id='a332Brand'>airbus</p>
-					<p id='a332Craft'>A330</p>
+			<div id="a332Box">
+				<div onclick='A332info(1)'>
+					<img src='../img/airbus/a332.png' alt='Picture of a Vietnam Airlines A332' id="a332" />
+						<p id='a332Brand'>airbus</p>
+						<p id='a332Craft'>A330</p>
+				</div>
 			</div>
-		</div>
-		<div id="a320Box">
-			<div onclick='A320info(1)'>
-				<img src='..\img\airbus\a320.png' id="a320" />
-					<p id='a320Brand'>airbus</p>
-					<p id='a320Craft'>A320</p>
+			<div id="a320Box">
+				<div onclick='A320info(1)'>
+					<img src='../img/airbus/a320.png' alt='Picture of a Virgin America A320' id="a320" />
+						<p id='a320Brand'>airbus</p>
+						<p id='a320Craft'>A320</p>
+				</div>
 			</div>
 		</div>
 	</body>
