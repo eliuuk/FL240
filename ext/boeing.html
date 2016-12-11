@@ -1,18 +1,117 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>FL240 | BOEING</title>
-		<link rel = "stylesheet" type = "text/css" href="..\css\boeing.css">
+		<link rel = "stylesheet" type = "text/css" href="../css/boeing.css">
+		<script>
+			function b748info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='b748info(1)'><img src='../img/boeing/b748.png' alt='Picture of a Lufthansa B748' id='b748' /><div><p id='b748Brand'>boeing</p><p id='b748Craft'>747</p></div>";
+					document.getElementById('b748Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='b748info(2)'><img src='../img/boeing/b748.png' alt='Picture of a Lufthansa B748' id='b748' /></div><p id='b748Description'>The Boeing 747-800 is the aircraft that is frequently nicknamed as 'Queen of the Skies' or just simply 'Jumbo Jet'. The development of the Boeing 747 almost made Boeing bankrupt - and at one point they almost decided to scrap the project! Boeing 747s are extremely distinctive by the hump shape on the upper deck and is mostly seen through its largest operator, British Airways.</p>";
+					document.getElementById('b748Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='b748info(0)'><img src='../img/boeing/b748.png' alt='Picture of a Lufthansa B748' id='b748' /></div><p id='b748Stats'>Maximum speed: 	613 knots <br>Range: 7730 nautical miles<br>MTOW: 447,696 kilograms<br>MLW: 277,757 kilograms<br>Length: 76.25 metres<br>Height: 19.4 metres<br>Wingspan: 68.4 metres<br>Cabin Width: 6.08m<br>Seating: 8/80/276 (f/b/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('b748Box').innerHTML = newcode;
+				}
+			}
+
+			function b777info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='b777info(1)'><img src='../img/boeing/b777.png' alt='Picture of an Emirates Boeing 777' id='b777'/><div><p id='b777Brand'>boeing</p><p id='b777Craft'>777</p></div>";
+					document.getElementById('b777Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='b777info(2)'><img src='../img/boeing/b777.png' alt='Picture of an Emirates Boeing 777' id='b777' /></div><p id='b777Description'>The Boeing 777 was the first commerical aircraft to be completely be designed with computer aided design and is a long range wide body twin jet. The Triple Seven has had more orders than any other wide body jet. The 777 series aircraft was first built in 1995 and has 4 varients, the -200ER, -200LR, -300ER, -F and in future, the 777X. Emirates operates a complete fleet consiting of A380s and B777s only.</p>";
+					document.getElementById('b777Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='b777info(0)'><img src='../img/boeing/b777.png' alt='Picture of an Emirates Boeing 777' id='b777' /></div><p id='b777Stats'>Maximum speed: 	593 knots <br>Range: 8500 nautical miles<br>MTOW: 351,533 kilograms<br>MLW: 251,290 kilograms<br>Length: 73.86 metres<br>Height: 18.5 metres<br>Wingspan: 64.8 metres<br>Cabin Width: 5.84m<br>Seating: 22/70/273 (f/pe/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('b777Box').innerHTML = newcode;
+				}
+			}
+
+			function b788info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='b788info(1)'><img src='../img/boeing/b788.png' alt='Picture of an Air India B788' id='b788'/><div><p id='b788Brand'>boeing</p><p id='b788Craft'>787</p></div>";
+					document.getElementById('b788Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='b788info(2)'><img src='../img/boeing/b788.png' alt='Picture of an Air India B788' id='b788' /></div><p id='b788Description'>The Boeing 787 Dreamliner is a wide body jet airliner primarily operated by All Nippon Airways, whilst also being used heavily by United Airlines who use the Boeing 787s to focus on the dot-to-dot model, connecting small airports internationally. The 787s have suffered from fires due to battery problems before, as they use lithium-ion batteries. This flaw grounded 787s worldwide for 4 months in 2013.</p>";
+					document.getElementById('b788Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='b788info(0)'><img src='../img/boeing/b788.png' alt='Picture of an Air India B788' id='b788' /></div><p id='b788Stats'>Maximum speed: 	511 knots <br>Range: 7635 nautical miles<br>MTOW: 254,011 kilograms<br>MLW: 201,849 kilograms<br>Length: 68.28 metres<br>Height: 17.02 metres<br>Wingspan: 60.12 metres<br>Cabin Width: 5.49m<br>Seating: 32/298 (f/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('b788Box').innerHTML = newcode;
+				}
+			}
+
+			function b738info(num)
+			{
+				if (num === 0) {
+					var newcode = "<div onclick='b738info(1)'><img src='../img/boeing/b738.png' alt='Picture of an American Airlines B738' id='b738'/><div><p id='b738Brand'>boeing</p><p id='b738Craft'>737</p></div>";
+					document.getElementById('b738Box').innerHTML = newcode;
+				}
+				if (num === 1) {
+					var newcode = "<div onclick='b738info(2)'><img src='../img/boeing/b738.png' alt='Picture of an American Airlines B738' id='b738' /></div><p id='b738Description'>The Boeing 737 family has seen many developments from its first flight in April, 1967 with its Boeing 737-100. The jet is the most popular and best-selling commerical airliner which is still being developed today. There are 3 brands with the name 'Boeing 737' in them - Boeing 737 Classic, containing the -300/-400/-500 series, Boeing 737 Next Generation, with the modern -600/-700/-800 and -900 series and finally, still in development, the Boeing 737 MAX series which will have its first delivery in May 2017 with Norwegian Air Shuttle.</p>";
+					document.getElementById('b738Box').innerHTML = newcode;
+				}
+				if (num === 2) {
+					var newcode = "<div onclick='b738info(0)'><img src='../img/boeing/b738.png' alt='Picture of an American Airlines B738' id='b738' /></div><p id='b738Stats'>Maximum speed: 	453 knots <br>Range: 3825 nautical miles<br>MTOW: 88,314 kilograms<br>MLW: 74,344 kilograms<br>Length: 42.2 metres<br>Height: 12.3 metres<br>Wingspan: 35.90 metres<br>Cabin Width: 3.54m<br>Seating: 12/168 (f/e)<br><br>MTOW = Maximum Takeoff Weight<br>MLW = Maximum Landing Weight</p>";
+					document.getElementById('b738Box').innerHTML = newcode;
+				}
+			}
+		</script>
 	</head>
-	
 	<body>
         <div id="head">
 			<div id="stripe"></div>
 		</div>
 		<div id="headText">
-				<a href="..\index.html" id="headFlight" class="toIndex">flight</a>
-				<a href="..\index.html" id="headLevel" class="toIndex">level</a>
-				<a href="..\index.html" id="headNum" class="toIndex">240</a>
-				<p id="boeingTitle">BOEING</p>
+			<a href="../index.html" id="headFlight" class="toIndex">flight</a>
+			<a href="../index.html" id="headLevel" class="toIndex">level</a>
+			<a href="../index.html" id="headNum" class="toIndex">240</a>
+			<p id="boeingTitle">BOEING</p>
+		</div>
+
+		<div id="boeingBoxes">
+			<div id="b748Box">
+				<div onclick='b748info(1)'>
+					<img src='../img/boeing/b748.png' alt='Picture of a Lufthansa B748' id="b748" />
+						<p id='b748Brand'>boeing</p>
+						<p id='b748Craft'>747</p>
+				</div>
+			</div>
+
+			<div id="b777Box">
+				<div onclick='b777info(1)'>
+					<img src='../img/boeing/b777.png' alt='Picture of an Emirates Boeing 777' id="b777" />
+						<p id='b777Brand'>boeing</p>
+						<p id='b777Craft'>777</p>
+				</div>
+			</div>
+
+			<div id="b788Box">
+				<div onclick='b788info(1)'>
+					<img src='../img/boeing/b788.png' alt='Picture of an Air India B788' id="b788" />
+						<p id='b788Brand'>boeing</p>
+						<p id='b788Craft'>787</p>
+				</div>
+			</div>
+
+			<div id="b738Box">
+				<div onclick='b738info(1)'>
+					<img src='../img/boeing/b738.png' alt='Picture of an American Airlines B738' id="b738" />
+						<p id='b738Brand'>boeing</p>
+						<p id='b738Craft'>737</p>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

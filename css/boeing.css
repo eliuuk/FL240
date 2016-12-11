@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Indie+Flower|Poiret+One|Nunito');
 
 body {
     background-image: url("../img/boeing/background.jpg");
-    background-size: 100em;
+	background-size: 100%;
     overflow: hidden;
+}
+
+p {
+	font-family: 'Comfortaa', cursive;
 }
 
 /* Header */
@@ -24,8 +28,10 @@ body {
 #headText {
 	position: relative;
 	text-align: center;
-	left: -5em;
-    top: -1em;
+    top: 1em;
+	left: 30em;
+	width: 20em;
+	height: 10em;
 }
 
 #headFlight {
@@ -34,7 +40,7 @@ body {
 	font-family: 'Comfortaa', cursive;
 	font-size: 2.5em;
 	font-weight: bold;
-	color: #5777D6; 
+	color: #5777D6;
 }
 #headLevel {
 	position: relative;
@@ -48,8 +54,8 @@ body {
 
 #headNum {
 	position: relative;
-	top: 0.3em;
-	left: -2.2em;
+	top: -0.7em;
+	left: -0.5em;
 	font-family: 'Indie Flower', cursive;
 	font-size: 6em;
 	font-weight: bold;
@@ -58,13 +64,275 @@ body {
 
 #boeingTitle {
     position: relative;
-	top: -2.1em;
+	top: -3.4em;
     left: 4em;
-    font-family: 'Julius Sans One';
+    font-family: 'Nunito', cursive;
     font-size: 5em;
     font-weight: bold;
 }
 
 .toIndex {
 	text-decoration: none;
+}
+
+#boeingBoxes {
+	position: relative;
+	top: 9.5em;
+	left: -1.5em;
+}
+
+#b748Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#b748Box:hover {
+		opacity: 0.9;
+	}
+
+#b748 {
+	position: relative;
+	left: 1.5em;
+	top: 6.5em;
+	width: 20em;
+	z-index: 0;
+}
+
+#b748Brand {
+	position: relative;
+	font-family: "Nunito", cursive;
+	top: 0.2em;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#b748Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -0.9em;
+	left: 0.1em;
+	font-size: 7em;
+	color: #ffffff;
+}
+
+#b748Description {
+	position: relative;
+	top: 7.5em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#b748Stats {
+	position: relative;
+	top: 7.5em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* b777 */
+
+#b777Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#b777Box:hover {
+		opacity: 0.9;
+	}
+
+#b777 {
+	position: relative;
+	left: 2em;
+	top: 6em;
+	width: 20em;
+	z-index: 0;
+}
+
+#b777Brand {
+	position: relative;
+	font-family: "Nunito", cursive;
+	top: 0.125em;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#b777Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1em;
+	left: 0.05em;
+	font-size: 7em;
+	color: #ffffff;
+}
+
+#b777Description {
+	position: relative;
+	top: 7em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#b777Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 7em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* b788 */
+
+#b788Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em;
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#b788Box:hover {
+		opacity: 0.9;
+	}
+
+#b788 {
+	position: relative;
+	left: 2em;
+	top: 5.5em;
+	width: 20em;
+	z-index: 0;
+}
+
+#b788Brand {
+	position: relative;
+	font-family: "Nunito", cursive;
+	top: -0.1em;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#b788Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1.25em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#b788Description {
+	position: relative;
+	top: 5.25em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#b788Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 5.25em;
+	left: 4em;
+	color: #ffffff;
+}
+
+/* b738 */
+
+#b738Box {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	left: 3.5em;
+	height: 30em;
+	width: 22.5em; 
+	background-color: #111111;
+	opacity: 0.6;
+
+	transition: opacity .25s ease-in-out;
+   	-moz-transition: opacity .25s ease-in-out;
+   	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+}
+
+	#b738Box:hover {
+		opacity: 0.9;
+	}
+
+#b738 {
+	position: relative;
+	left: 2em;
+	top: 5em;
+	width: 20em;
+	z-index: 0;
+}
+
+#b738Brand {
+	position: relative;
+	top: -0.1em;
+	font-family: "Nunito", cursive;
+	font-size: 7em;
+	letter-spacing: -0.1em;
+	color: #ffffff;
+}
+
+#b738Craft {
+	position: relative;
+	font-family: "Poiret One", cursive;
+	top: -1.25em;
+	left: 0.05em;
+	font-size: 7.5em;
+	color: #ffffff;
+}
+
+#b738Description {
+	position: relative;
+	top: 5.25em;
+	left: 0.6em;
+	width: 21.5em;
+	color: #ffffff;
+}
+
+#b738Stats {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	top: 5.25em;
+	left: 3.5em;
+	color: #ffffff;
 }
