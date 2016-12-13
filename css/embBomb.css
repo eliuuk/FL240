@@ -16,7 +16,9 @@ p {
 	left: -10px;
 	width: 101em;
 	height: 25px; 
-	background: linear-gradient(to right, #242424, #1153B3, #242424);
+	background: -webkit-linear-gradient(left, #050606, #0068B1, #FFFFF8);
+	background: -o-linear-gradient(left, #050606, #0068B1, #FFFFF8);
+	background: linear-gradient(to right, #050606, #0068B1, #FFFFF8);
 }
 
 #head {
@@ -80,7 +82,7 @@ p {
 #embBombBoxes {
 	position: relative;
 	top: 9.5em;
-	left: -1.5em;
+	left: 1em;
 }
 
 #bcs1Box {

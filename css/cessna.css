@@ -16,7 +16,7 @@ p {
 	left: -10px;
 	width: 101em;
 	height: 25px; 
-	background: linear-gradient(to right, #242424, #1153B3, #242424);
+	background: linear-gradient(to right, #D7083C, #D7083C, #1153B3, #1153B3);
 }
 
 #head {
@@ -59,7 +59,7 @@ p {
 	font-family: 'Indie Flower', cursive;
 	font-size: 6em;
 	font-weight: bold;
-	color: rgb(236, 240, 241);
+	color: #111111;
 }
 
 #cessnaTitle {
@@ -71,7 +71,7 @@ p {
     font-family: 'Raleway', cursive;
     font-size: 5em;
     font-weight: bold;
-	color: #ffffff;
+	color: #111111;
 }
 
 .toIndex {
@@ -81,7 +81,7 @@ p {
 #cessnaBoxes {
 	position: relative;
 	top: 9.5em;
-	left: -1.5em;
+	left: 1em;
 }
 
 #c750Box {

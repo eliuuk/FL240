@@ -60,6 +60,7 @@ body {
 	width: 25em;
 	height: 30em;
 	opacity: 1;
+	left: 5em;
 }
 
 /* Airbus */
@@ -68,7 +69,7 @@ body {
     display: inline-block;
 	vertical-align: top;
 	bottom: 20em;
-	left: 16em;
+	left: 17.5em;
 }
 
 #frontAircraft {
@@ -80,7 +81,7 @@ body {
    	-webkit-transition: opacity .25s ease-in-out;
 }
 
-	#fntA350:hover {
+	#frontAircraft:hover {
 		opacity: 0.75;
 	}
 
@@ -99,7 +100,7 @@ body {
 
 #boeingTxt {
 	position: relative;
-	top: -3.5em;
+	top: -6.5em;
 	left: 10em;
 	color: #111111;
 	font-family: "Nunito", cursive;
@@ -109,7 +110,7 @@ body {
 
 #cessnaTxt {
 	position: relative;
-	top: -3.5em;
+	top: -13em;
 	left: 10em;
 	color: #ffffff;
 	font-family: "Nunito", cursive;
@@ -151,7 +152,7 @@ body {
 #rightCircle {
 	position: relative;
 	top: -40em;
-	right: -82.5em;
+	right: -85.5em;
 	width: 10em;
 	height: 10em;
 	background: #111111;
